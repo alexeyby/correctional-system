@@ -8,7 +8,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PositiveOrZero;
-
 import alexeyby.corsys.model.enumeration.NutritionalStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
