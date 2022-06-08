@@ -1,0 +1,35 @@
+.content {
+    min-width: inherit;
+    background-color: #e5ddf1;
+}
+
+.content_container {
+    min-width: var(--min-width);
+    padding: 0 !important;
+    background-color: #dfd1f3;
+}
+
+.content_navbar {
+    align-items: stretch !important;
+    height: 46px;
+    padding: 0 !important;
+}
+
+.navbar_brand {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.navbar_brand:hover {
+    color: black;
+    background-color: #e3d6f4;
+}
+
+.navbar_brand:focus-visible {
+    outline: none;
+    border-radius: 3px;
+    box-shadow: inset 0 0 1px 2px #a980ca !important;
+}

@@ -1,0 +1,130 @@
+.col__filter {
+    min-width: 234px;
+}
+
+.form_label__position {
+    margin: 3px !important;
+    padding-left: 10px;
+}
+
+.btn__list {
+    color: #8763a3 !important;
+}
+
+.table__list {
+    display: flex;
+    flex-flow: column;
+    min-width: 670px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px solid #d8d8d8;
+}
+
+.thead__list {
+    background-color: #f7f7f7;
+}
+
+.tr__head {
+    border-bottom: none;
+}
+
+.tbody__list {
+    flex-grow: 1;
+    height: 415px;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    border-top: 1px solid #d8d8d8 !important;
+}
+
+.tr__list {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-color: #cccfd1;
+    border-top: none;
+    border-collapse: initial;
+}
+
+.th__list {
+    border: none;
+    font-weight: normal;
+}
+
+.th__list, .td__list {
+    word-break: break-all;
+}
+
+.column__radio {
+    text-align: center;
+    width: 30px;
+}
+
+.column__number {
+    color: #9e75c0;
+}
+
+.column__object {
+    text-align: center;
+    width: 80px;
+}
+
+.th__list, .td__list, .column__radio, .column__object {
+    vertical-align: middle;
+    border-left: none;
+    border-right: none;
+}
+
+.tbody__list::-webkit-scrollbar {
+    width: 0.7em;
+    background: transparent;
+}
+
+.tbody__list::-webkit-scrollbar-thumb {
+    background:rgb(232, 232, 232);
+}
+
+.radio {
+    opacity: 1 !important;
+}
+
+.radio:checked {
+    background-color: #9671b3 !important;
+    border-color: #9671b3 !important;
+}
+
+.tr__hoovered:hover {
+    background-color: rgba(235, 232, 232, 0.295);
+}
+
+.btn__report {
+    min-width: 8.5rem;
+    color: white !important;
+    background-color: #9071ac !important;
+}
+
+.input__filter:focus, .input__filter:focus-visible {
+    outline: none;
+    border-color: #a980ca !important;
+    box-shadow: 0 0 0 4px #b38cd39f !important;
+}
+
+.input__filter:-webkit-autofill {
+    box-shadow: inset 0 0 0 1000px #f5eefa !important;
+    -webkit-box-shadow: inset 0 0 0 1000px #f5eefa !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.input__filter:-webkit-autofill:focus, .input__filter:-webkit-autofill:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 1000px #f5eefa, 0 0 0 4px #b38cd39f !important;
+    -webkit-box-shadow: inset 0 0 0 1000px #f5eefa, 0 0 0 4px #b38cd39f !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.btn__focused:focus:not(:focus-visible) {
+    box-shadow: none !important;
+}
+
+.btn__focused:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px #b38cd39f !important;
+}

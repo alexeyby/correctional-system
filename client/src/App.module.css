@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #ededf5;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    min-width: inherit;
+}
+
+.main_container {
+    flex-grow: 1;
+    min-width: var(--min-width);
+    background-color: white;
+    padding-bottom: 90px;
+}
+
+@keyframes enter {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes exit {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+  
+.toast_transition__enter {
+    animation: enter 0.3s ease-out both;
+}
+
+.toast_transition__exit {
+    animation: exit 0.3s ease-out both;
+}

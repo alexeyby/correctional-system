@@ -1,0 +1,26 @@
+.report_box {
+    box-shadow: 0 0 8px 0 #cccccc;
+    padding: 30px;
+}
+
+.report {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.report h5 {
+    font-weight: bold;
+}
+
+.btn__action {
+    color: white !important;
+    background-color: #9071ac !important;
+}
+
+.btn__action:focus:not(:focus-visible) {
+    box-shadow: none !important;
+}
+
+.btn__action:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px #d0b7e4 !important;
+}

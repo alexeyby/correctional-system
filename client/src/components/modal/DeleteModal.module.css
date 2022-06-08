@@ -1,0 +1,37 @@
+.modal_dialog {
+    max-width: 350px !important;
+}
+
+.modal_body {
+    padding-top: 1.4rem !important;
+    padding-bottom: 1.4rem !important;
+}
+
+.modal_footer {
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+}
+
+.btn__accept {
+    color: white !important;
+    background-color: #9071ac !important;
+}
+
+.btn__cancel {
+    color: #8763a3 !important;
+}
+
+.btn__modal {
+    min-width: 3.3rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.btn__modal:focus:not(:focus-visible) {
+    box-shadow: none !important;
+}
+
+.btn__modal:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px #d0b7e4 !important;
+}

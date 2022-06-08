@@ -1,0 +1,17 @@
+.content {
+    min-width: inherit;
+}
+
+.content_container {
+    min-width: var(--min-width);
+    color: white;
+    background-color: #705697;
+}
+
+.content_items {
+    height: 40px;
+}
+
+.items_text {
+    min-width: 330px;
+}

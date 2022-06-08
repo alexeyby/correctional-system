@@ -1,0 +1,54 @@
+.animated_form__enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.animated_form__enter_active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 400ms, transform 400ms;
+}
+
+.animated_form__exit {
+    opacity: 1;
+}
+
+.animated_form__exit_active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 200ms, transform 200ms;
+}
+
+.btn__new_form {
+    color: white !important;
+    background-color: #9071ac !important;
+}
+
+.btn__new_form:focus:not(:focus-visible) {
+    box-shadow: none !important;
+}
+
+.btn__new_form:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px #b38cd39f !important;
+}
+
+.label__switch {
+    font-size: 1.3rem;
+}
+
+:global(.is-invalid):focus {
+    outline: none;
+    border-color: #a980ca !important;
+    box-shadow: 0 0 0 4px #d0b7e4 !important;
+}
+
+:global(.is-invalid):focus, :global(.is-invalid):focus-visible {
+    outline: none;
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 4px #f6ccd0 !important;
+}
+
+:global(.form-check-input.is-invalid~.form-check-label) {
+    color: black !important;
+}
